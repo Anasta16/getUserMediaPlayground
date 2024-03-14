@@ -49,6 +49,8 @@ const stopMyFeed = () => {
     ]);
 }
 
+// click handlers
+
 document.querySelector('#share').addEventListener('click', (e) => {
     getMicAndCamera(e);
 });
@@ -79,4 +81,18 @@ document.querySelector('#play-record').addEventListener('click', (e) => {
 
 document.querySelector('#share-screen').addEventListener('click', (e) => {
     shareScreen(e);
+})
+
+// change handlers
+
+document.querySelector('#audio-input').addEventListener('change', (e) => {
+    changeAudioInput(e);
+})
+
+document.querySelector('#audio-output').addEventListener('change', (e) => {
+    changeAudioOutput(e);
+})
+
+document.querySelector('#video-input').addEventListener('change', (e) => {
+    changeVideo(e);
 })
