@@ -1,5 +1,6 @@
 const videoEl = document.querySelector('#my-video');
 let stream = null; // Init stream bar so we can use it anywhere
+let mediaStream = null; // Init mediaStream var for screenShare
 
 const constraints = {
     audio: true, // use your headphones or be prepared for feedback
