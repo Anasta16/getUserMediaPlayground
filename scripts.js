@@ -75,3 +75,7 @@ document.querySelector('#stop-record').addEventListener('click', (e) => {
 document.querySelector('#play-record').addEventListener('click', (e) => {
     playRecording(e);
 })
+
+document.querySelector('#share-screen').addEventListener('click', (e) => {
+    shareScreen(e);
+})
